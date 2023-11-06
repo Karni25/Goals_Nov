@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int num1,num2,num3,sum;
+    printf("Enter num1:\n");
+    scanf("%d",&num1);
+    printf("Enter num2:\n");
+    scanf("%d",&num2);
+    printf("Enter num3:\n");
+    scanf("%d",&num3);
+    sum=num1+num2+num3;
+    printf("%d the value of sum",sum);
+    return 0;
+}
