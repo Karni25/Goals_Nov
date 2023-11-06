@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int num,digit;
+    printf("Enter the number:");
+    scanf("%d",&num);
+    digit=num%100;
+    num=digit/10;
+    printf("%d 10's digit is",num);
+    return 0;
+}
