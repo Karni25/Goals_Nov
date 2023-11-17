@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+  int v1,v2,v3,num;
+  printf("Enter num");
+  scanf("%d",&num);
+  v1=num/100;
+  v2=v1*100;
+  v3=v2+5;
+  printf("%d",v3);
+}
+
+Output:
+Enter num 695
+695
+605
