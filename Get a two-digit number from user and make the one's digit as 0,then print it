@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+  int v1,v2,num;
+  printf("Enter num");
+  scanf("%d",&num);
+  v1=num/10;
+  v2=v1*10;
+  printf("%d",v2);
+}
+
+output :
+Enter num 95
+95
+90
